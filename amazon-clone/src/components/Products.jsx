@@ -2,8 +2,13 @@
 
 export default function Products() {
     return (
-        <div>
+        <main>
             <h1>Product Page</h1>
-        </div>
+            <ul>
+                <li>Product 1</li>
+                <li>Product 2</li>
+                <li>Product 3</li>
+            </ul>
+        </main>
     )
 }
