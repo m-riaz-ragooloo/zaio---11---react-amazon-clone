@@ -3,7 +3,7 @@
 export default function Products() {
     return (
         <main>
-            <h1>Product Page</h1>
+            <h1>Product List</h1>
             <ul>
                 <li>Product 1</li>
                 <li>Product 2</li>
