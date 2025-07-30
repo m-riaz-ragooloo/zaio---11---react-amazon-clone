@@ -1,9 +1,12 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useState } from "react"
 import Modal from "./Modal";
 import "./SignIn.css"
 
 export default function SignIn() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   return (
     <main>
       <div className="signup">
